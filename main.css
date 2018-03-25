@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    margin: 0 auto;
+    padding: 40px;
+    width: 400px;
+}
+
+.custom-scroll__track{
+    position: fixed;
+    height: 100vh;
+    z-index: 998;
+    right: 0;
+    top: 0;
+}
+
+.custom-scroll__bar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999;
+}
